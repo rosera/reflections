@@ -1,13 +1,32 @@
 What happens when you initialize a repository? 
-Create a new repository
+Create a new repository for holding your updates
 
 Why do you need to do it?
-Empty space to give a commit
+Creates an empty space in which to give a commit a home 
 
 How is the staging area different from the working directory and the repository? 
-
-It represents temporary storage
+It represents temporary storage which can be useful to try out changes
 
 What value do you think it offers?
-
 It provides a temporary area in which you are able to monitor changes and then decide whether its worth it to commit
+
+How can you use the staging area to make sure you have one commit per logical change?
+Perform commit after staging the file.
+
+What are some situations when branches would be helpful in keeping your history organized? 
+When working on multiple delivery streams.
+
+How would branches help?
+Organise distinct parts of coding, such as testing hypothesis on source
+
+How do the diagrams help you visualize the branch structure?
+Illustrates the path available for the code and branches within your respository
+
+What is the result of merging two branches together? 
+Results in single combination of previous changes.
+
+Why do we represent it in the diagram the way we do?
+To indicate resolution of alternate possibilities?
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Easy process to use automated merge. A manual merge requires more effort.
